@@ -1,0 +1,10 @@
+= simple_form_for @post , multipart: true do |f|
+ = f.input :image
+ = f.input :title
+ %br/
+ = f.input :link
+ %br/
+ = f.input :body
+ %br/
+ %br/
+ = f.button :submit

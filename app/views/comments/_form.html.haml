@@ -1,0 +1,6 @@
+- if user_signed_in?
+   = simple_form_for([@post, @post.comments.build]) do |f|
+      =f.input :content, label: "Reply to the Post"
+      =f.button :submit, class: "button"
+
+

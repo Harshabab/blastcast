@@ -1,0 +1,58 @@
+#page_wrapper {
+  padding: 3em;
+  #profile_image {
+    width: 300px;
+    float: left;
+    margin-right: 2em;
+    img {
+      width: 100%;
+      border-radius: 0.35em;
+    }
+  }
+  #content {
+    h1 {
+      font-weight: 500;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.75;
+    }
+    a {
+      color: #33acb7;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+}
+.links {
+  margin: 2em 0;
+}
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 90%;
+  border: 1px solid #5c5e59;
+  border-radius: .5em;
+  margin-top: 10px;
+  padding: .5em 1em;
+  line-height: 1.75;
+}
+input[type="text"] {
+  height: 35px;
+}
+textarea {
+  min-height: 220px;
+}
+input[type="submit"] {
+  outline: none;
+  background: transparent;
+  border: 1px solid #5c5e59;
+  color: #000000;
+  padding: .5em 1.5em;
+  font-size: 1.1em;
+  border-radius: .5em;
+  margin-left: .5em;
+  &:hover {
+    border: 1px solid #33acb7;
+    color: #33acb7;
+
+  }
+}
